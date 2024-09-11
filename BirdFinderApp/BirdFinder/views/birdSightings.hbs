@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bird Sightings</title>
+    <link rel="stylesheet" href="/birdSightings.css">
+</head>
+<body>
+    <h1>Bird Sightings in {{region}}</h1>
+    {{#each sightings}}
+      <div class="sighting">
+        <!-- Each bird name is a clickable link -->
+        <a href="/birdDetails?region={{../region}}&speciesCode={{speciesCode}}">{{comName}}</a>
+        <p>Location: {{locName}}</p>
+        <p>Date: {{obsDt}}</p>
+      </div>
+    {{/each}}
+    <form action="/dashboard" method="GET">
+        <button type="submit" class="home-button">Back to Dashboard</button>
+    </form>
+</body>
+</html>

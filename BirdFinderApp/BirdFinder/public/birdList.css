@@ -1,0 +1,75 @@
+/* CSS styles for bird list */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1 {
+
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 80%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+li {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.remove-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ff6347; /* Red color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-button {
+    
+    background-color: #007bff; /* Blue color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none; /* Remove default underline */
+}
+
+.button-container {
+    margin-top: 20px; /* Add margin to create space between the button and the table */
+    display: flex;
+    justify-content: center;
+}

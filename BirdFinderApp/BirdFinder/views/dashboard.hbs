@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bird Finder Dashboard</title>
+    <link rel="stylesheet" href="/dashboard.css">
+   
+</head>
+<body>
+    <div class="container">
+        <h1>Bird Finder Dashboard</h1>
+        <p class="search-text">Search bird sightings by region</p>
+        <form action="/dashboard" method="POST">
+            <label for="region">Region:</label>
+            <input type="text" id="region" name="region" required>
+            <button type="submit">Search</button>
+        </form>
+        <div class="button-group">
+            <form action="/birdList" method="POST">
+                <button type="submit">My Birds</button>
+            </form>
+            <form action="/users" method="POST">
+                <button type="submit">Users</button>
+            </form>
+        </div>
+        <form action="/logout" method="POST" class="logout-button">
+            <button type="submit">Logout</button>
+        </form>
+    </div>
+</body>
+</html>
+
+

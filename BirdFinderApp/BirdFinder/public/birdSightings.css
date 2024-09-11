@@ -1,0 +1,59 @@
+ /* CSS styles for the bird sightings */
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative; /* Set the body to a relative position */
+}
+
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.sighting {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+a {
+
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
+}
+
+
+.home-button {
+    position: absolute; 
+    top: -30px; 
+    right: 10px; 
+    background-color: #007bff; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none; 
+}

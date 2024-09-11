@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bird Details</title>
+    <link rel="stylesheet" href="/birdDetails.css">
+</head>
+<body>
+    <form action="/birdDetails" method="POST">
+        <input type="hidden" name="commonName" value="{{birdDetails.[0].comName}}">
+        
+        <h1> Bird Details</h1>
+        <div class="bird-details">
+            <div class="sighting">
+                <p>Common Name: {{birdDetails.[0].comName}}</p>
+                <p>Scientific Name: {{birdDetails.[0].sciName}}</p>
+                <p> Region: {{region}}</p>   
+                
+                <!-- Add more details as needed -->
+            </div>
+        </div>
+    
+        <button type="add">Add to List</button>
+    </form>
+    <form action="/dashboard" method="GET">
+        <button type="submit" class="home-button">Back to Dashboard</button>
+</body>
+</html>

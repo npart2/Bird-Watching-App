@@ -1,0 +1,40 @@
+  /* CSS styles for the home page */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+.welcome-message {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.program-name {
+    font-size: 36px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
