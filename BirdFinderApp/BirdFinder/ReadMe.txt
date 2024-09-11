@@ -1,5 +1,4 @@
-"I attest to be begin the sole author of this summitted work and any code borrowed from other sources has been identified by comments placed in my submitted code.
-Natasha Partenheimer, 101082999 "
+This application allows users to create an account/login, search for birds by name, see bird details, and add birds to their list
 
 Install Instructions:
 - Navigate to the file in the terminal
