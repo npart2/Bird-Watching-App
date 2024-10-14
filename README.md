@@ -1,0 +1,1 @@
+This application allows users to create an account/login, search for birds by name, see bird details, and add birds to their list. In the future, this application will allow users to view the nearest sighting of a given bird relative to their location. 
