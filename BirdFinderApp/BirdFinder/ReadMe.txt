@@ -17,6 +17,5 @@ Testing Instructions:
     -'http://localhost:3000/searchBird?region=CA'
     -'http://localhost:3000/birdList' 
 
-Video Demonstration:
-- https://youtu.be/nl4vV4h2csU
+
 
